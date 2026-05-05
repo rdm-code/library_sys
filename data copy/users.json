@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "fullname": "Reatile Mas",
+            "id": "u1a2b3c4-1111-4aaa-8bbb-1234567890ab",
+            "password": "12345678",
+            "role": 1,
+            "username": "admin"
+        },
+        {
+            "fullname": "Thabo Mafa",
+            "id": "9a96ac6c-0e98-9a9a-68bd-7e1e38b13547",
+            "password": "12345678",
+            "role": 2,
+            "username": "tmafa"
+        },
+        {
+            "fullname": "Thabo Maile",
+            "id": "9a96ac6c-0e98-9a9a-68bd-7e1e38b13549",
+            "password": "12345678",
+            "role": 2,
+            "username": "tmaile"
+        },
+        {
+            "fullname": "Eben Dabire",
+            "id": "302df625-c297-268e-0d70-4ed39a963ee2",
+            "password": "12345678",
+            "role": 3,
+            "username": "edabire"
+        },
+        {
+            "fullname": "Lucky T",
+            "id": "47d01d86-e331-daad-184f-f6a42d6af46d",
+            "password": "12345678",
+            "role": 3,
+            "username": "lt"
+        }
+    ],
+    "version": 4
+}

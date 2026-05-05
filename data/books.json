@@ -1,0 +1,50 @@
+{
+    "data": [
+        {
+            "author": "Robert C. Martin",
+            "available": 5,
+            "id": "47d01d86-e331-daad-184f-f6a42d6af49z",
+            "isbn": "9780132350884",
+            "maxBorrowDays": 14,
+            "noOfCopies": 5,
+            "title": "Clean Code"
+        },
+        {
+            "author": "Andrew Hunt",
+            "available": 3,
+            "id": "47d01d86-e331-daad-184f-f6a42d6af46h",
+            "isbn": "9780201616224",
+            "maxBorrowDays": 10,
+            "noOfCopies": 3,
+            "title": "The Pragmatic Programmer"
+        },
+        {
+            "author": "Martin Kleppmann",
+            "available": 2,
+            "id": "47d01d86-e331-daad-184f-f6a42d6af46t",
+            "isbn": "9781491950357",
+            "maxBorrowDays": 21,
+            "noOfCopies": 4,
+            "title": "Designing Data-Intensive Applications"
+        },
+        {
+            "author": "T.Tsepo",
+            "available": 10,
+            "id": "47d01d86-e331-daad-184f-f6a42d6af46e",
+            "isbn": "888",
+            "maxBorrowDays": 20,
+            "noOfCopies": 10,
+            "title": "System Architecture"
+        },
+        {
+            "author": "Masaile",
+            "available": 50,
+            "id": "ab8baca0-48c3-2d96-ae34-00e8fff56218",
+            "isbn": "89893232",
+            "maxBorrowDays": 3,
+            "noOfCopies": 50,
+            "title": "Linux Commands"
+        }
+    ],
+    "version": 10
+}

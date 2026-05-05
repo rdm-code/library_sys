@@ -1,0 +1,41 @@
+{
+    "data": [
+        {
+            "id": "47d01d86-e331-daad-184f-f6a42d6af49z",
+            "author": "Robert C. Martin",
+            "isbn": "9780132350884",
+            "maxBorrowDays": 14,
+            "noOfCopies": 5,
+            "available": 5,
+            "title": "Clean Code"
+        },
+        {
+            "id": "47d01d86-e331-daad-184f-f6a42d6af46h",
+            "author": "Andrew Hunt",
+            "isbn": "9780201616224",
+            "maxBorrowDays": 10,
+            "noOfCopies": 3,
+            "available": 3,
+            "title": "The Pragmatic Programmer"
+        },
+        {
+            "id": "47d01d86-e331-daad-184f-f6a42d6af46t",
+            "author": "Martin Kleppmann",
+            "isbn": "9781491950357",
+            "maxBorrowDays": 21,
+            "noOfCopies": 4,
+            "available": 4,
+            "title": "Designing Data-Intensive Applications"
+        },
+        {
+            "id": "47d01d86-e331-daad-184f-f6a42d6af46e",
+            "author": "T.Tsepo",
+            "isbn": "888",
+            "maxBorrowDays": 20,
+            "noOfCopies": 10,
+            "available": 10,
+            "title": "System Architecture"
+        }
+    ],
+    "version": 3
+}
