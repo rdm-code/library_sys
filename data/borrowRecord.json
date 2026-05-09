@@ -31,7 +31,23 @@
             "id": "455c8eba-227e-0ee5-44f5-b918c100f70b",
             "isbn": "9781491950357",
             "returnedDate": null
+        },
+        {
+            "borrowedDate": "2026-05-06 11:51:22",
+            "borrowerId": "47d01d86-e331-daad-184f-f6a42d6af46d",
+            "dueDate": "2026-05-16 11:51:22",
+            "id": "cc7f86ee-e3ef-630c-ca8b-124d4e67ed6c",
+            "isbn": "8742829094",
+            "returnedDate": "2026-05-06 11:54:22"
+        },
+        {
+            "borrowedDate": "2026-05-06 11:56:23",
+            "borrowerId": "47d01d86-e331-daad-184f-f6a42d6af46d",
+            "dueDate": "2026-05-16 11:56:23",
+            "id": "ae1ad2a0-daf7-7b8f-2452-4f33025aeaa6",
+            "isbn": "8742829094",
+            "returnedDate": null
         }
     ],
-    "version": 8
+    "version": 11
 }

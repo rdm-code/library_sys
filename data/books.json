@@ -44,7 +44,16 @@
             "maxBorrowDays": 3,
             "noOfCopies": 50,
             "title": "Linux Commands"
+        },
+        {
+            "author": "Masaile DR",
+            "available": 49,
+            "id": "902ea2f0-94de-0e6f-5626-64c19cd929e4",
+            "isbn": "8742829094",
+            "maxBorrowDays": 10,
+            "noOfCopies": 50,
+            "title": "C++ Made Simple"
         }
     ],
-    "version": 10
+    "version": 14
 }
