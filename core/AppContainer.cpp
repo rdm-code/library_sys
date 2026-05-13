@@ -1,7 +1,6 @@
 #include "AppContainer.h"
 
 #include "../Constants.h"
-#include "../infrastructure/JSONLoader.h"
 
 AppContainer::AppContainer()
     : userRepo(USERS_PATH, EventType::USER_CREATED, EventType::USER_UPDATED,
