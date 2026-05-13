@@ -6,8 +6,24 @@
             "dueDate": "2026-05-23 20:23:04",
             "id": "9deba0ed-a4f8-ad97-d837-bbbeaceea180",
             "isbn": "8742829094",
+            "returnedDate": "2026-05-13 21:01:39"
+        },
+        {
+            "borrowedDate": "2026-05-13 20:55:29",
+            "borrowerId": "47d01d86-e331-daad-184f-f6a42d6af46d",
+            "dueDate": "2026-05-16 20:55:29",
+            "id": "3b60bee9-2401-93c8-430d-45e4c4455ac8",
+            "isbn": "89893232",
+            "returnedDate": "2026-05-13 21:07:11"
+        },
+        {
+            "borrowedDate": "2026-05-13 21:05:41",
+            "borrowerId": "47d01d86-e331-daad-184f-f6a42d6af46d",
+            "dueDate": "2026-05-23 21:05:41",
+            "id": "50d76e7b-0d03-6f88-5745-9eab82b9d659",
+            "isbn": "8742829094",
             "returnedDate": null
         }
     ],
-    "version": 1
+    "version": 5
 }

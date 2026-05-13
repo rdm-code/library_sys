@@ -32,11 +32,14 @@ void StudentMenu::run(AppContainer& container) {
     } else if (option == 3) {
         const auto& auth = container.getAuthService();
         auto& borrowedBs = container.getBorrowRecordService().getBorrowedRecordsIf(
-            [&](const BorrowRecord& br) { return br.getBorrowerId() == auth.getUser().getId(); });
+            [&](const BorrowRecord& br) { return !br.isReturned() && br.getBorrowerId() == auth.getUser().getId(); });
         if (borrowedBs.empty()) {
             cout << "\nNo borrowed books found." << endl;
         } else {
             const auto& books = container.getBookService().findBooks(getIsbnList(borrowedBs));
+            cout << endl
+                 << left << setw(20) << "ISBN" << setw(45) << "Title" << setw(20) << "Author" << setw(20)
+                 << "Max borrow Days" << setw(20) << "No.of Copies" << setw(20) << "Available" << endl;
             for (const auto& br : books) {
                 br.display();
             }
