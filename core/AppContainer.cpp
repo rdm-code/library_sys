@@ -16,7 +16,7 @@ AppContainer::AppContainer()
       userService(userRepo),
       bookService(bookRepo),
       borrowRecordService(borrowRecordRepo) {
-    JSONLoader::getInstance().loadFromDirectory("./data");
+    // JSONLoader::getInstance().loadFromDirectory("./data");
 
     userRepo.load();
     bookRepo.load();

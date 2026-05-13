@@ -1,0 +1,53 @@
+{
+    "data": [
+        {
+            "borrowedDate": "2026-05-01 13:50:24",
+            "borrowerId": "9a96ac6c-0e98-9a9a-68bd-7e1e38b13549",
+            "dueDate": "2026-05-22 13:50:24",
+            "id": "425cf7f5-5654-2f2d-08e3-cf0b4df92038",
+            "isbn": "9781491950357",
+            "returnedDate": "2026-05-01 19:09:10"
+        },
+        {
+            "borrowedDate": "2026-05-01 19:13:43",
+            "borrowerId": "9a96ac6c-0e98-9a9a-68bd-7e1e38b13547",
+            "dueDate": "2026-05-04 19:13:43",
+            "id": "c3335d3c-7f8a-87f5-1d43-52f926229cdc",
+            "isbn": "9780132350884",
+            "returnedDate": null
+        },
+        {
+            "borrowedDate": "2026-05-05 15:57:02",
+            "borrowerId": "302df625-c297-268e-0d70-4ed39a963ee2",
+            "dueDate": "2026-05-26 15:57:02",
+            "id": "57771887-0c67-6c5d-b5e3-4e761566e08e",
+            "isbn": "9781491950357",
+            "returnedDate": null
+        },
+        {
+            "borrowedDate": "2026-05-05 15:58:00",
+            "borrowerId": "47d01d86-e331-daad-184f-f6a42d6af46d",
+            "dueDate": "2026-05-26 15:58:00",
+            "id": "455c8eba-227e-0ee5-44f5-b918c100f70b",
+            "isbn": "9781491950357",
+            "returnedDate": "2026-05-13 19:46:01"
+        },
+        {
+            "borrowedDate": "2026-05-06 11:51:22",
+            "borrowerId": "47d01d86-e331-daad-184f-f6a42d6af46d",
+            "dueDate": "2026-05-16 11:51:22",
+            "id": "cc7f86ee-e3ef-630c-ca8b-124d4e67ed6c",
+            "isbn": "8742829094",
+            "returnedDate": "2026-05-13 20:13:52"
+        },
+        {
+            "borrowedDate": "2026-05-06 11:56:23",
+            "borrowerId": "47d01d86-e331-daad-184f-f6a42d6af46d",
+            "dueDate": "2026-05-16 11:56:23",
+            "id": "ae1ad2a0-daf7-7b8f-2452-4f33025aeaa6",
+            "isbn": "8742829094",
+            "returnedDate": "2026-05-13 20:18:16"
+        }
+    ],
+    "version": 15
+}

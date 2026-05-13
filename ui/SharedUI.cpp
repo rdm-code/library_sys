@@ -142,7 +142,7 @@ void issueBookUI(UserService& uService, BookService& bService, BorrowRecordServi
     // Decrement available count
     // book.setAvailable(book.getAvailable() - 1);
     --book;
-    
+
     // Update book in repository
     bService.updateBook(book);
 
@@ -166,8 +166,9 @@ void returnBookUI(UserService& uService, BookService& bService, BorrowRecordServ
 
     User user = *userPtr;
 
-    auto borrowedRecords = brService.getBorrowedRecordsIf(
-        [&](const BorrowRecord& br) { return br.getBorrowerId() == user.getId(); });
+    auto borrowedRecords = brService.getBorrowedRecordsIf([&](const BorrowRecord& br) {
+        return !br.isReturned() && br.getBorrowerId() == user.getId();
+    });
 
     if (borrowedRecords.empty()) {
         cout << "[X] No borrowed books found!" << endl;
@@ -221,8 +222,6 @@ void showOwingMembersUI(UserService& uService, BookService& bService,
         return;
     }
 
-    
-
     vector<BorrowRecord> owingRecords;
 
     for (auto record : borrowedRecords) {
@@ -236,9 +235,9 @@ void showOwingMembersUI(UserService& uService, BookService& bService,
         if (userPtr == nullptr) {
             continue;
         }
-        
+
         record.setUser(*userPtr);
-        
+
         owingRecords.push_back(record);
     }
 

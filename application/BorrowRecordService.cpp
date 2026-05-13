@@ -37,7 +37,9 @@ void BorrowRecordService::updateBorrowRecord(const BorrowRecord& b) const { repo
 void BorrowRecordService::returnBook(const std::string& isbn, const std::string& userId) const {
     auto records = repo.getAll();
     for (auto& br : records) {
-        if (br.getIsbn() == isbn && br.getBorrowerId() == userId) {
+        // cout << "In returnBook********" << endl;
+        if (br.getIsbn() == isbn && br.getBorrowerId() == userId && !br.isReturned()) {
+            // cout << "Marking returned" << endl;
             br.markReturned();
             repo.update(br);
             return;
